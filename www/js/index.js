@@ -33,7 +33,7 @@ var app = {
         alert(navigator.connection);
         alert(navigator.connection.type);
         alert(navigator.device);
-        alert(navigator.device.phonegap);
+        alert(navigator.device.cordova);
     },
     report: function(id) {
         // Report the event in the console
