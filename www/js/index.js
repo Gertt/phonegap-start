@@ -30,8 +30,8 @@ var app = {
 
         alert('device ready');
         alert(navigator.network);
-        alert(navigator.network.connection);
-        alert(navigator.network.connection.type);
+        alert(navigator.connection);
+        alert(navigator.connection.type);
         alert(navigator.device);
         alert(navigator.device.phonegap);
     },
