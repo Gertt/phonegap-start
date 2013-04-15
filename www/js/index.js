@@ -27,6 +27,13 @@ var app = {
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
+
+        alert('device ready');
+        alert(navigator.network);
+        alert(navigator.network.connection);
+        alert(navigator.network.connection.type);
+        alert(navigator.device);
+        alert(navigator.device.phonegap);
     },
     report: function(id) {
         // Report the event in the console
