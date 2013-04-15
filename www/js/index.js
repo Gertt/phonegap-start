@@ -32,8 +32,8 @@ var app = {
         alert(navigator.network);
         alert(navigator.connection);
         alert(navigator.connection.type);
-        alert(navigator.device);
-        alert(navigator.device.cordova);
+        alert(device);
+        alert(device.cordova);
     },
     report: function(id) {
         // Report the event in the console
